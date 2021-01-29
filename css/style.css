@@ -552,7 +552,7 @@ p {
 /*---------------- Form Home Styling ------------------- */
 
 .form .hero-section {
-	background: url("../images/gym-bg.png");
+	background: url("../images/bg5.png");
 	background-size: cover;
 	padding: 150px 0 0 0;
 }
@@ -1440,6 +1440,7 @@ button.btn.active:focus {
 
 .app-features img {
 	margin: 0 auto;
+	padding-top: 50%;
 }
 
 .app-features .features-left,
@@ -1480,6 +1481,7 @@ button.btn.active:focus {
 .app-features .feature-single p {
 	font-size: 17px;
 	color: #A1A1A1;
+	text-align: center;
 	line-height: 1.4;
 	letter-spacing: 1px;
 	margin: 10px 0 0 0;
@@ -1551,7 +1553,7 @@ button.btn.active:focus {
 ------------- Reviews Section Styling ----------------
 -----------------------------------------------------*/
 
-.review-section {
+/* .review-section {
 	padding: 150px 0 150px 0;
 	text-align: center;
 	background: #18bb18;
@@ -1595,7 +1597,7 @@ button.btn.active:focus {
 	color: #fff;
 }
 
-
+ */
 
 
 /*  --------------------------------------------------
@@ -2346,6 +2348,46 @@ button.btn.active:focus {
 
 }
 
+
+
+
+.team {
+	background: #111;
+	padding-top: 120px;
+}
+
+.team-member h4 {
+	color: #18bb18;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	margin: 15px 0 8px;
+}
+
+.team h2 {
+	font-size: 37px;
+	color: #18bb18;
+	font-weight: 900;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+
+
+.team-member span {
+	color: whitesmoke;
+	text-transform: capitalize;
+}
+
+
+
+
+
+.split-features2 .split-image img {
+	height: 500px;
+	/* top: 1; */
+	/* padding-top: 10rem; */
+}
 
 /*---------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
